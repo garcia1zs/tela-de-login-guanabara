@@ -1,3 +1,48 @@
 @charset "UTF-8" ;
 
 /*tela de fundo: #294380 */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#294380 ;
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#imagem{
+    display: block;
+background:#294380  url(../img/pexels-steve-1292241.jpg) ;
+background-size: cover;
+height: 200px;
+background-position: left bottom;
+}
+
+#formulario{
+display: block;
+padding: 20px;
+
+}
